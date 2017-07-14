@@ -1,10 +1,48 @@
+body{
+
+    background: url("img/fondCv.png") no-repeat;
+
+    background-size: 100% 100%;
+}
+
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'cac_champagneregular';
+    src: url(font/cac_champagne-webfont.eot);
+    src: url(font/cac_champagne-webfont.eot?#iefix) format('embedded-opentype'),
+    url(font/cac_champagne-webfont.woff) format('woff'),
+    url(font/cac_champagne-webfont.ttf) format('truetype'),
+    url(font/cac_champagne-webfont.svg#cac_champagneregular) format('svg');
+}
+
 h1{
     text-align: center;
+    text-shadow: 5px 2px 5px blue;
+    font-family: cac_champagneregular;
+    font-size: 400%;
 }
 
 h2{
+
     text-align: center;
     color: blue;
     border: solid black;
 
+}
+
+.citation{
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+.imageflottante{
+    float: right;
+    border: solid blue;
+box-shadow: 3px 5px 3px #14439f;
+}
+
+
+.corp{
+    clear: both;
 }
